@@ -1,0 +1,36 @@
+# 🚫 Archivos y carpetas innecesarias para WordPress + Docker
+
+# Bases de datos
+*.sql
+*.sqlite
+*.db
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+*.pid
+
+# Volúmenes de Docker (si se llegaran a mapear como carpetas)
+wordpress_data/
+db_data/
+
+# Archivos temporales
+*.bak
+*.swp
+*.tmp
+
+# Configuración personal
+.env
+.env.*
+
+# Node (si en algún momento usás herramientas front)
+node_modules/
+dist/
+
+# Otros
+.idea/
+.vscode/
+
